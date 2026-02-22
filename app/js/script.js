@@ -52,6 +52,7 @@ const swiper2 = new Swiper('.swiper-with-image-pagination', {
 const swiper3 = new Swiper('.swiper-with-image', {
 
     direction: 'horizontal',
+    effect: 'fade',
     loop: true,
 
     // If we need pagination
@@ -69,5 +70,9 @@ const swiper3 = new Swiper('.swiper-with-image', {
     keyboard: {
         enabled: true,
         onlyInViewport: true,
+    },
+
+    fadeEffect: {
+        crossFade: true,
     },
 });
